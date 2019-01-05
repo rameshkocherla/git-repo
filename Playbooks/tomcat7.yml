@@ -1,0 +1,17 @@
+---
+- hosts: Ubuntu
+  become: yes
+  tasks:
+  - name: install tomcat
+    apt:
+      name: tomcat7
+      state: present
+  - name: start tomcat service
+    service: 
+      name: tomcat7
+      state: started
+      enabled: yes
+  
+      
+  
+

@@ -1,0 +1,11 @@
+[WebServer]
+ip-172-31-29-44.ap-south-1.compute.internal
+
+[DbServer]
+ip-172-31-27-189.ap-south-1.compute.internal
+
+[Ubuntu]
+localhost
+ip-172-31-29-44.ap-south-1.compute.internal
+ip-172-31-27-189.ap-south-1.compute.internal
+ip-172-31-26-109.ap-south-1.compute.internal

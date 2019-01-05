@@ -1,0 +1,13 @@
+---
+- hosts: WebServer
+  become: yes
+  tasks:
+  - name: install vapor
+    apt:
+      name: vapor
+      state: present
+  - name: install vapor
+    apt:
+      name: vapor
+      state: present
+    when: ansible_os_family == "Debian"  
